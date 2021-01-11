@@ -33,7 +33,7 @@ function getDisplay(options) {
 exports.onRenderBody = function(_ref, options) {
   var setHeadComponents = _ref.setHeadComponents
 
-  var link = 'https://fonts.googleapis.com/css?family=' + getFonts(options) + getDisplay(options)
+  var link = 'https://fonts.googleapis.com/css2?family=' + getFonts(options) + getDisplay(options)
   setHeadComponents([
     _react2.default.createElement('link', {
       key: 'fonts',
